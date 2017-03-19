@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background-image: url(images/bg_html.jpg); 
+	height: 100%;
+	width: 100%;
+	font-family: 微軟正黑體;
+}
+.clear{
+	clear: both;
+}
+
+.line{
+	height: 5px;
+	background: black;
+}
+.red{
+	float: left;
+	width: 70px;
+	height: 5px;
+	background: #EB0000;
+}
+.green{
+	float: left;
+	width: 70px;
+	height: 5px;
+	background: #00DB00;
+}
+.blue{
+	float: left;
+	width: 70px;
+	height: 5px;
+	background: #008A8A;
+}
+.header{
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.left{
+	float: left;
+	width: 180px;
+	height: 100px;
+}
+.top{
+	float: left;
+	width: 720px;
+	height: 25px;
+}
+.top_left{
+	float: right;
+	width: 25px;
+	height: 25px;
+}
+.top_right{
+	float: right;
+	width: 25px;
+	height: 25px;
+}
+.bottom{
+	float: left;
+	width: 720px;
+	height: 75px;
+}
+.bottom li{
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+	width: 120px;
+	height: 35px;
+	padding: 40px 0 0 0;
+	text-align: right;	
+}
+.content{
+	background: grey;
+	width: 940px;
+	height: 415px;
+	margin: 0 auto;
+}
+.part1{
+	width: 940px;
+	height: 415px;
+}
+.p1_left{
+	width: 640px;
+	height: 415px;
+	float: left;
+}
+.p1_right{
+	background: #383737;
+	width: 250px;
+	height: 365px;
+	float: left;
+	padding: 25px;	
+}
+.p1_right h1{
+	font-size: 40px;
+	margin: 20px;
+	color: #0cb4dc;
+}
+.p1_right p{
+	font-size: 15px;
+	margin: 20px 20px 40px 20px;
+	font-weight: bolder;
+	line-height: 30px;
+	color: #7B7B7B;
+}
+.p1_right input{
+	font-size: 15px;
+	margin: 0 20px 0 20px;
+	font-weight: bold;
+	color:white;
+	background: #616060;
+	border: 0;
+	padding: 10px 25px 10px 25px;
+}
+.part2{
+	background: white;
+	width: 850px;
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+	padding: 25px 45px 25px 45px;
+	line-height: 30px;
+}
+.part3{
+	background: white;
+	width: 850px;
+	height: 415px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	padding: 25px 45px 0 45px;
+}
+.p3_left{
+	float: left;
+	width: 640px;
+	height: 425px;
+}
+
+.p3_left h2{
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	width: 640px;
+	padding:0 0 25px 0;
+}
+.info{
+	margin-bottom: 20px;
+}
+.info img{
+	float: left;
+	margin-right: 15px;
+	border: 5px solid #EDEDED;
+}
+.info h3{
+	float: left;
+	width: 430px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.info p{
+	float: left;
+	width: 430px;
+	height: 120px;
+	font-size: 15px;
+	line-height: 25px;	
+}
+
+.p3_top{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.p3_top ul{
+	float: left;
+	width: 210px;
+	height: 150px;
+	line-height: 30px;
+	list-style-position:inside;
+	list-style-image:url(images/dot_blue.gif);
+}
+.p3_top h2{
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	width: 210px;
+	padding:0 0 25px 0;
+}
+.p3_bottom{
+	float: left;
+	width: 210px;
+	height: 150px;
+}
+.p3_bottom h2{
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	width: 210px;
+	padding:0 0 25px 0;
+}
+input.zip{
+	width: 168px;
+	font-size: 15px;
+	color:#D4D4D4;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	border: 1px #E8E8E8 solid;
+}
+input.search{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #E8E8E8;
+	color:#0cb4dc;
+	padding: 15px 25px;
+	margin-bottom: 10px;
+	border: none;
+}
+.footer{
+	width: 940px;
+	height: 50px;
+	margin: 0 auto;
+}
+.footer p{
+	width: 940px;
+	text-align: center;
+}
+span{
+	color: #0cb4dc;
+}
