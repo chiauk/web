@@ -57,60 +57,59 @@ body{
 	clear: both;
 }
 
+.wrap{
+	width: 70%;
+	margin: 0 auto;
+}
 .line{
 	height: 5px;
 	background: black;
 }
-.red{
+#red{
 	float: left;
-	width: 70px;
+	width: 5%;
 	height: 5px;
 	background: #EB0000;
 }
-.green{
+#green{
 	float: left;
-	width: 70px;
+	width: 5%;
 	height: 5px;
 	background: #00DB00;
 }
-.blue{
+#blue{
 	float: left;
-	width: 70px;
+	width: 5%;
 	height: 5px;
 	background: #008A8A;
 }
 .header{
-	width: 900px;
-	height: 100px;
-	margin: 0 auto;
 	padding: 20px;
 }
-.left{
+#logo{
 	float: left;
 	width: 180px;
 	height: 100px;
 }
-.top{
+#fans{
 	float: left;
 	width: 720px;
 	height: 25px;
 }
-.top_left{
+#tw{
 	float: right;
 	width: 25px;
 	height: 25px;
 }
-.top_right{
+#fb{
 	float: right;
 	width: 25px;
 	height: 25px;
 }
-.bottom{
+.bar{
 	float: left;
-	width: 720px;
-	height: 75px;
 }
-.bottom li{
+.bar li{
 	font-size: 15px;
 	font-weight: bold;
 	float: left;
@@ -119,110 +118,113 @@ body{
 	padding: 40px 0 0 0;
 	text-align: right;	
 }
-.content{
-	background: grey;
-	width: 940px;
-	height: 415px;
-	margin: 0 auto;
+.main_content{
+	margin-top: 20px;
+	height: auto;
 }
-.part1{
-	width: 940px;
-	height: 415px;
-}
-.p1_left{
-	width: 640px;
+.main_photo{
+	width: 70%;
 	height: 415px;
 	float: left;
 }
-.p1_right{
+.main_photo img{
+	width: 100%;
+	height: 415px;
+}
+.main_introduce{
 	background: #383737;
-	width: 250px;
-	height: 365px;
+	width: 28%;
+	height: 400px;
 	float: left;
-	padding: 25px;	
+	padding: 1%;
 }
-.p1_right h1{
+.main_introduce h1{
 	font-size: 40px;
-	margin: 20px;
+	margin: 10% 10% 1% 10%;
 	color: #0cb4dc;
 }
-.p1_right p{
+.main_introduce p{
 	font-size: 15px;
-	margin: 20px 20px 40px 20px;
+	margin: 10% 10% 15% 10%;
 	font-weight: bolder;
 	line-height: 30px;
 	color: #7B7B7B;
 }
-.p1_right input{
+.main_introduce input{
 	font-size: 15px;
-	margin: 0 20px 0 20px;
+	margin: 0 10%;
 	font-weight: bold;
 	color:white;
 	background: #616060;
 	border: 0;
 	padding: 10px 25px 10px 25px;
 }
-.part2{
+.content{
+	width: 100%;
+	height: auto;
+}
+.detail{
 	background: white;
-	width: 850px;
-	height: 100px;
+	width: 90%;
+	height: auto;
 	float: left;
 	margin-top: 30px;
-	padding: 25px 45px 25px 45px;
+	padding: 3% 5% 3% 5%;
 	line-height: 30px;
 }
-.part3{
+.other{
 	background: white;
-	width: 850px;
-	height: 415px;
+	width: 90%;
+	height: auto;
 	float: left;
 	margin-top: 30px;
 	margin-bottom: 25px;
-	padding: 25px 45px 0 45px;
+	padding: 3% 5% 5% 5%;
 }
-.p3_left{
+.events{
 	float: left;
-	width: 640px;
-	height: 425px;
+	width: 75%;
+	height: auto;
 }
-
-.p3_left h2{
+.events h2{
 	float: left;
 	font-size: 25px;
 	font-weight: bold;
-	width: 640px;
+	width: 100%;
 	padding:0 0 25px 0;
 }
 .info{
-	margin-bottom: 20px;
+	margin-bottom: 5%;
 }
 .info img{
 	float: left;
-	margin-right: 15px;
+	width: 30%;
+	height: auto;
+	margin-right: 5%;
 	border: 5px solid #EDEDED;
 }
 .info h3{
 	float: left;
-	width: 430px;
+	width: 60%;
 	font-size: 15px;
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-bottom: 2%;
 }
 .info p{
 	float: left;
-	width: 430px;
-	height: 120px;
+	width: 60%;
+	height: auto;
 	font-size: 15px;
 	line-height: 25px;	
 }
 
-.p3_top{
+.list{
 	float: left;
-	width: 200px;
+	width: 25%;
 	height: 200px;
 	margin-bottom: 20px;
 }
-.p3_top ul{
+.list ul{
 	float: left;
 	width: 210px;
 	height: 150px;
@@ -230,23 +232,23 @@ body{
 	list-style-position:inside;
 	list-style-image:url(images/dot_blue.gif);
 }
-.p3_top h2{
+.list h2{
 	float: left;
 	font-size: 25px;
 	font-weight: bold;
-	width: 210px;
+	width: 100%;
 	padding:0 0 25px 0;
 }
-.p3_bottom{
+.FindUs{
 	float: left;
-	width: 210px;
+	width: 25%;
 	height: 150px;
 }
-.p3_bottom h2{
+.FindUs h2{
 	float: left;
 	font-size: 25px;
 	font-weight: bold;
-	width: 210px;
+	width: 100%;
 	padding:0 0 25px 0;
 }
 input.zip{
@@ -267,14 +269,145 @@ input.search{
 	border: none;
 }
 .footer{
-	width: 940px;
-	height: 50px;
+	width: 100%;
+	height: auto;
 	margin: 0 auto;
+	margin-bottom: 50px;
 }
 .footer p{
-	width: 940px;
+	width: 100%;
 	text-align: center;
 }
 span{
 	color: #0cb4dc;
+}
+
+@media(max-width: 768px){
+	.wrap{
+		width: 90%;
+	}
+	.header{
+		padding: 5% 0 0 0;
+	}
+	#logo{
+		width: 100%;
+		height: auto;
+	}
+	#fans{
+		display: none;
+	}
+	.bar{
+		width: 100%;
+		margin-top: 3%;
+	}
+	.bar ul li{
+		float: left;
+		text-align: center;
+		width: 33.3%;
+		background: white;
+	}
+	.main_photo{
+		width: 100%;
+		height: auto;
+	}
+	.main_photo img{
+		max-width: 100%;
+		height: auto;
+	}
+	.main_introduce{
+		width: 98%;
+		height: auto;
+		padding: 3% 1%	
+	}
+	.main_introduce h1{
+		font-size: 30px;
+		margin: 3% 10% 1% 10%;
+	}
+	.main_introduce p{
+		margin: 3% 10%;
+	}
+	.main_introduce input{
+		margin: 1% 10% 3% 10%;
+	}
+	.detail{
+		width: 90%;
+		height: auto;
+		margin-top: 3%;
+	}
+	.other{
+		width: 90%;
+		height: auto;
+		margin-top: 3%;
+	}
+	.events{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+	.info img{
+		width: 40%;
+		height: auto;
+	}
+	.info h3{
+		width: 50%;
+		height: auto;
+	}
+	.info p{
+		width: 50%;
+		height: auto;
+	}
+	.list{
+		width: 50%;
+		height: auto;
+	}
+	.FindUs{
+		width: 50%;
+		height: auto;
+	}
+}
+@media(max-width: 414px){
+	.bar ul li{
+		width: 50%;
+	}
+	.main_introduce h1{
+		font-size: 30px;
+	}
+	.main_introduce p{
+		font-size: 10px;
+	}
+	.main_introduce input{
+		font-size: 10px;
+		margin: 0 10%;
+	}
+	.info img{
+		width: 100%;
+		height: auto;
+	}
+	.info h3{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+	}
+	.info p{
+		display: none;
+	}
+	.list{
+		width: 100%;
+		height: auto;
+	}
+	.FindUs{
+		width: 100%;
+		height: auto;
+	}
+}
+@media(max-width: 320px){
+	.main_introduce h1{
+		text-align: center;
+	}
+	.main_introduce p{
+		display: none;
+	}
+	.main_introduce input{
+		margin: 5% 25%;
+	}
 }
