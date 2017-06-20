@@ -55,14 +55,14 @@ function test(){
       var ftype=''
       var lingu_data = ''; 
       for (i = 0; data.result.total > i; i++) {
-        var name=data.result.records[i].名稱
+        var name=data.result.records[i]['名稱']+"-"+data.result.records[i]['樓  別']
         var linguplace = data.result.records[i]['行政區'];
         var linguidentity = data.result.records[i][identity];
         var lingutype = data.result.records[i]['櫃位型']; //搜尋骨灰櫃時雙人式骨灰櫃也會出現 
         var id=data.result.records[i]._id
         if( linguplace.match(area) && lingutype.match(type)){
           if(parseInt(linguidentity)<=parseInt(cost)){  
-            lingu_data += '<li>名稱：'+name+'<br/>櫃位型態：'+lingutype+'<br/>類別價位：'+linguidentity+'</li>';
+            lingu_data += '<li>地點樓層：'+name+'<br/>櫃位型態：'+lingutype+'<br/>類別價位：'+linguidentity+'</li>';
             document.getElementById("lingu_data").innerHTML = lingu_data;
             mark(id,add1,name);
             
@@ -84,9 +84,7 @@ function test(){
                     
             addmark(id,name)
           }else {
-
-            //alert("資料太多給我確認，我給你全世界!!" );//改，DEMO可以隱藏 的話出現的資料會比較不完全因為程式跑太快
-                
+            alert("資料沒有順利送出，請重新整理後再嘗試唷!");//DEMO可以隱藏 的話出現的資料會比較不完全因為程式跑太快    
                 }
         });
       }  
@@ -130,8 +128,8 @@ function test(){
                       
         var infowindow = new google.maps.InfoWindow({
           content:
-          '<div style="font-family: 微軟正黑體;font-size:20px;color:blue;"><h1>靈骨塔資訊</h1></div>'+
-                  '<p style="font-family: 微軟正黑體;font-size:16px;color:red;">名稱:</p>'+name+'<p style="font-family: 微軟正黑體;font-size:16px;color:red;">塔價位:</p>'+ftype
+          '<div id=mapinfo_title><h1>靈骨塔資訊</h1></div>'+
+                  '<div id=mapinfo_p><p>名稱:</p>'+name+'<p>塔價位:</p><div>'+ftype
         });
 
         marker.addListener('click', toggleBounce);

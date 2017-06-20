@@ -115,6 +115,7 @@ table {
   	height: 87%;
   	width: 20%;
   	background: #8C8CFF;
+  	overflow: scroll;
 }
 #information h2{
 	color: white;
@@ -132,6 +133,25 @@ table {
 	float: left;
   	height: 87%;
   	width: 80%;
+}
+#mapinfo_title{
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	color: #6E6E6E;
+	font-weight: bold;
+	margin-bottom: 1%;
+}
+#mapinfo_p{
+	font-family: 微軟正黑體;
+	font-size: 14px;
+	font-weight: bold;
+}
+#mapinfo_p p{
+	font-family: 微軟正黑體;
+	font-size: 16px;
+	font-weight: bold;
+	color: #919191;
+	margin-top: 3%;
 }
 @media(max-width: 1080px){
 	#information{
